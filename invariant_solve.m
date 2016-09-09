@@ -1,5 +1,5 @@
 function [theta0,S]=invariant_solve(A,E,w_c,w_)
-%é›†åˆSå¹¶ä¸æ˜¯ ä¸å˜é›†ï¼ŒSä¸theta0çš„é—µå¯å¤«æ–¯åŸºå’Œæ‰æ˜¯ä¸å˜é›†ï¼Œä¹Ÿå°±æ˜¯è¯´ä¸å˜é›†çš„å¤§å°ä¸Sä¸€æ ·ï¼Œä½†ä¸­å¿ƒä¸ä¸€æ ·
+%¼¯ºÏS²¢²»ÊÇ ²»±ä¼¯£¬SÓëtheta0µÄãÉ¿É·òË¹»ùºÍ²ÅÊÇ²»±ä¼¯£¬Ò²¾ÍÊÇËµ²»±ä¼¯µÄ´óĞ¡ÓëSÒ»Ñù£¬µ«ÖĞĞÄ²»Ò»Ñù
 assert(nargin == 3 || nargin == 4,'number ofinput arguments must be 3 or 4');
 [row,~]=size(A);
 if nargin == 4

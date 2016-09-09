@@ -1,7 +1,7 @@
 function pt=zt2pt_new(Z)
 [n,p]=size(Z.g_m);
-co=combntns(1:p,n-1);%ä»colä¸ªgeneratorsä¸­ä»»æ„å–å‡ºrow-1ä¸ªgeneratorsçš„ç»„åˆæ•°ï¼Œè¿”å›ä¸€ä¸ªçŸ©é˜µï¼Œæ¯è¡Œä»£è¡¨ä¸€ç§å–æ³•
-[co_row_num,~]=size(co);%å–å‡ºå¯èƒ½çš„ç»„åˆçš„ä¸ªæ•°
+co=combntns(1:p,n-1);%´Ócol¸ögeneratorsÖĞÈÎÒâÈ¡³örow-1¸ögeneratorsµÄ×éºÏÊı£¬·µ»ØÒ»¸ö¾ØÕó£¬Ã¿ĞĞ´ú±íÒ»ÖÖÈ¡·¨
+[co_row_num,~]=size(co);%È¡³ö¿ÉÄÜµÄ×éºÏµÄ¸öÊı
 G=cell(1,co_row_num);
 for i=1:co_row_num
     G{1,i}=[];
